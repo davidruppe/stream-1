@@ -3,7 +3,7 @@ html {
 }
 
 header div {
-    background-color: #339ade;
+    background-color: #292148;
 }
 
 section div {
@@ -18,4 +18,8 @@ div {
     border-left: dashed 1px;
     padding: 1px;
     margin-bottom: 5px;
+}
+
+.banner {
+    margin-top: 10px;
 }
