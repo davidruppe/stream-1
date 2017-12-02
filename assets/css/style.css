@@ -1,0 +1,21 @@
+html {
+    
+}
+
+header div {
+    background-color: #339ade;
+}
+
+section div {
+    background-color: #bada55;
+}
+
+Footer div {
+    background-color: #fa052e;
+}
+
+div {
+    border-left: dashed 1px;
+    padding: 1px;
+    margin-bottom: 5px;
+}
