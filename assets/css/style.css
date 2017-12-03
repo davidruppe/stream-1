@@ -10,16 +10,37 @@ section div {
     background-color: #bada55;
 }
 
-Footer div {
-    background-color: #fa052e;
+footer div {
+    background-color: #292148;
+    color: #fafafa;
 }
 
 div {
-    border-left: dashed 1px;
     padding: 1px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .banner {
     margin-top: 10px;
+}
+
+.social-links li a i {
+    height: 40px;
+    width: 40px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: -20px;
+    text-align: center;
+    background: #C4C0C1;
+}
+
+.nav {
+    font-size: 20px;
+    background-color: #525252;
+}
+
+.nav li a {
+    color: #fafafa;
 }
