@@ -6,8 +6,12 @@ header div {
     background-color: #292148;
 }
 
-section div {
+section .home {
     background-color: #B9978E;
+}
+
+section .band {
+    background-color: #bada55;
 }
 
 footer div {
@@ -59,8 +63,4 @@ div {
     height:70px;
     width:100px;
     margin-left: 0;
-}
-
-.headbanner {
-    margin: 0;
 }
