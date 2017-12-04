@@ -7,7 +7,7 @@ header div {
 }
 
 section div {
-    background-color: #bada55;
+    background-color: #B9978E;
 }
 
 footer div {
@@ -36,11 +36,31 @@ div {
     background: #C4C0C1;
 }
 
-.nav {
-    font-size: 20px;
-    background-color: #525252;
+.navbar-inverse {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
-.nav li a {
-    color: #fafafa;
+.nav-pills li a {
+    color: #337AB7;
+    text-decoration: none;
+}
+
+.navbar-btn:hover {
+    background-color: #3BF7EB;
+    text-decoration: none;
+}
+
+.navbar-btn {
+    font-size: 25px;
+    background-color: #C4C0C1;
+    border-color: #C4C0C1;
+    height:70px;
+    width:100px;
+    margin-left: 0;
+}
+
+.headbanner {
+    margin: 0;
 }
