@@ -6,12 +6,21 @@ header div {
     background-color: #292148;
 }
 
+section {
+    color: #fafafa;
+}
+
 section .home {
-    background-color: #B9978E;
+    background-color: #399EBF;
+    color: #fafafa;
 }
 
 section .band {
-    background-color: #bada55;
+    background-color: #2F7070;
+}
+
+section .live {
+    background-color: #399EBF;
 }
 
 footer div {
@@ -25,37 +34,51 @@ div {
     text-align: center;
 }
 
-.banner {
-    margin-top: 0;
+.images {
+    margin: auto;
+    padding: 0;
+}
+
+.titlediv {
+    margin-top: 20px;
 }
 
 .navbar-inverse {
-    -webkit-box-shadow: none;
-    box-shadow: none;
     border: none;
+    margin-top: 25px;
     margin-bottom: 0;
-}
-
-.btn {
-    font-size: 20px;
-    background-color: #C4C0C1;
-    border-color: #C4C0C1;
-    height:40px;
-    width:80px;
-    margin-left: 10px;
-    color: #C4C0C1;
+    padding-top: 0;
+    
 }
 
 .navbar-btn:hover {
-    background-color: #3BF7EB;
+    background-color: #399EBF;
+    border-color: #fafafa;
+}
+
+a {
+    color: #ffffff;
+    text-align: center;
 }
 
 a:hover {
     text-decoration: none;
+    color: #2EF0EC;
 }
 
+ul {
+    list-style-type: none;
+}
 
+span {
+    color: #292148;
+}
 
+.fa {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .social-links li a i {
     height: 40px;
@@ -66,4 +89,69 @@ a:hover {
     line-height: -20px;
     text-align: center;
     background: #C4C0C1;
+}
+
+.form-text {
+    font-size: 16px;
+    color: #2EF0EC;
+}
+
+.checkavail {
+    color: #2EF0EC;
+}
+
+.submit {
+    background-color: #292148;
+    border-color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    color: #399EBF;
+    border-radius: 10%;
+    height: 50px;
+    width: 120px;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: #292148;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #399EBF;
+    height:50px;
+    width:90px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: #C4C0C1;
+    display: inline-block;
+}
+
+
+@media (max-width: 1200px) and (min-width: 992px) {
+
+.btn {
+    font-size: 18px;
+    height:45px;
+    width:80px;
+    margin: 0 0 0 10px;
+}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+.btn {
+    font-size: 13px;
+    height:40px;
+    width: 65px;
+    margin: 0 0 0 10px;
+}
+}
+
+@media (max-width: 768px) and (min-width: 1px) {
+
+.btn {
+    font-size: 15px;
+    height:45px;
+    width:100%;
+    margin: 10px 0 0 0;
+}
 }
