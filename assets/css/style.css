@@ -39,6 +39,21 @@ div {
     padding: 0;
 }
 
+.imglink {
+    float: left;
+    margin: 10px 20px 10px 20px;
+}
+
+.imglink:hover {
+    border: 10px solid #fafafa;
+   
+}
+
+.imglink:active {
+    border: 10px solid #292148;
+   
+}
+
 .titlediv {
     margin-top: 20px;
 }
@@ -73,6 +88,36 @@ ul {
 span {
     color: #292148;
 }
+
+.history {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+
+.members {
+    background-color: #bada55;
+    max-height: 300px;
+    overflow-x: scroll;
+}
+
+.headshots {
+    
+    display: inline;
+}
+
+.box {
+      width: 150px;
+      height: 150px;
+      background-color: #e84610;
+      margin: 5px;
+      display: inline-block;
+    }
+
+
+
 
 .fa {
     font-size: 50px;
