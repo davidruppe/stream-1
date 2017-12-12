@@ -16,7 +16,7 @@ section .home {
 }
 
 section .band {
-    background-color: #2F7070;
+    background-color: #399EBF;
 }
 
 section .live {
@@ -37,6 +37,9 @@ div {
 .images {
     margin: auto;
     padding: 0;
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
 }
 
 .imglink {
@@ -89,35 +92,31 @@ span {
     color: #292148;
 }
 
-.history {
-    margin-bottom: 2px;
-    margin-top: 2px;
+.feature {
+    margin: 20px 0 20px 0;
+    border: solid thick #bada55;
+    background-color: #399EBF;
+}
+
+.featureheader {
+    margin: 0;
+    border: solid thick #fafafa;
+    background-color: #292148;
+}
+
+.galleryscroll {
+    margin: 2px;
+    border: solid thick #fafafa;
     max-height: 300px;
     overflow-y: scroll;
-}
-
-
-.members {
-    background-color: #bada55;
-    max-height: 300px;
-    overflow-x: scroll;
-}
-
-.headshots {
     
-    display: inline;
 }
 
-.box {
-      width: 150px;
-      height: 150px;
-      background-color: #e84610;
-      margin: 5px;
-      display: inline-block;
-    }
-
-
-
+.pictures {
+    margin: 5px;
+    border: solid thick #399EBF;
+    background-color: #2F7070;
+}
 
 .fa {
     font-size: 50px;
