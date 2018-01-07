@@ -1,30 +1,18 @@
-html {
-    
+body {
+    font-family: Verdana, Geneva, sans-serif;
 }
 
-header div {
+header div{
     background-color: #292148;
+    font-family: Comic Sans MS;;
+}
+
+footer div{
+    background-color: #292148;
+    color: #fafafa;
 }
 
 section {
-    color: #fafafa;
-}
-
-section .home {
-    background-color: #399EBF;
-    color: #fafafa;
-}
-
-section .band {
-    background-color: #399EBF;
-}
-
-section .live {
-    background-color: #399EBF;
-}
-
-footer div {
-    background-color: #292148;
     color: #fafafa;
 }
 
@@ -34,39 +22,29 @@ div {
     text-align: center;
 }
 
-.images {
-    margin: auto;
-    padding: 0;
-    width: auto ;
-    max-width: 100% ;
-    height: auto ;
-}
-
-.imglink {
-    float: left;
-    margin: 10px 20px 10px 20px;
-}
-
-.imglink:hover {
-    border: 10px solid #fafafa;
-   
-}
-
-.imglink:active {
-    border: 10px solid #292148;
-   
-}
-
 .titlediv {
     margin-top: 20px;
 }
 
 .navbar-inverse {
-    border: none;
-    margin-top: 25px;
+    border-top: solid 5px #222222;
+    margin-top: 0px;
     margin-bottom: 0;
     padding-top: 0;
-    
+}
+
+.btn {
+    font-size: 20px;
+    background-color: #292148;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #399EBF;
+    height:50px;
+    width:100px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: #C4C0C1;
+    display: inline-block;
 }
 
 .navbar-btn:hover {
@@ -92,30 +70,119 @@ span {
     color: #292148;
 }
 
+h4{
+    text-decoration: underline;
+}
+
+.colpad {
+    padding-right:2px;
+    padding-left:2px;
+}
+
+.content {
+    background-color: #BBE1ED;
+    color: #fafafa;
+}
+
 .feature {
-    margin: 20px 0 20px 0;
-    border: solid thick #bada55;
+    margin: 0;
+    border: none;
     background-color: #399EBF;
 }
 
 .featureheader {
     margin: 0;
-    border: solid thick #fafafa;
+    border: none;
     background-color: #292148;
+    font-family: Comic Sans MS;
+}
+
+.gallery {
+    margin: 0px;
+    border: none;;
+    max-height: 400px;
+    padding: 0;
+    
 }
 
 .galleryscroll {
     margin: 2px;
-    border: solid thick #fafafa;
-    max-height: 300px;
+    border: none;
+    max-height: 400px;
     overflow-y: scroll;
+    padding: 0;
     
 }
 
 .pictures {
-    margin: 5px;
-    border: solid thick #399EBF;
-    background-color: #2F7070;
+    display: block;
+    border: none;
+    background-color: #399EBF;
+    padding-top: 0;
+    
+}
+
+.pictures p {
+    padding: 0;
+    margin-top: 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.imgheader {
+    margin: auto;
+    padding: 0;
+    width: auto ;
+    max-width: 100% ;
+    height: auto;
+}
+
+.imglink {
+    float: left;
+    margin: 10px 20px 10px 20px;
+}
+
+.imglink:hover {
+    border: 10px solid #fafafa;
+   
+}
+
+.imglink:active {
+    border: 10px solid #292148;
+}
+
+.headbox {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 10px;
+}
+
+.imghead {
+    height: 100%;
+}
+
+
+.imgpict {
+    float: left;
+    max-height: 100px;
+    width: auto;
+    
+}
+
+video {
+    width: 90%;
+    height: auto;
+}
+
+
+audio {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
 }
 
 .fa {
@@ -135,14 +202,27 @@ span {
     background: #C4C0C1;
 }
 
-.form-text {
+.form-input {
+    /*background-color: #C3C6C7;*/
+    background-color: #CBE396;
+}
+
+.form-group {
+    margin: 10px;
+    background-color: #292148;
+    
+}
+
+
+.text-muted {
     font-size: 16px;
     color: #2EF0EC;
 }
 
-.checkavail {
-    color: #2EF0EC;
+#emailHelp {
+    color: #BBE1ED;
 }
+
 
 .submit {
     background-color: #292148;
@@ -153,20 +233,7 @@ span {
     border-radius: 10%;
     height: 50px;
     width: 120px;
-}
-
-.btn {
-    font-size: 20px;
-    background-color: #292148;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #399EBF;
-    height:50px;
-    width:90px;
-    margin-left: 10px;
-    margin-bottom: 0;
-    color: #C4C0C1;
-    display: inline-block;
+    margin-bottom: 10px;
 }
 
 
@@ -186,8 +253,9 @@ span {
     font-size: 13px;
     height:40px;
     width: 65px;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 0px;
 }
+
 }
 
 @media (max-width: 768px) and (min-width: 1px) {
@@ -196,6 +264,7 @@ span {
     font-size: 15px;
     height:45px;
     width:100%;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0 0px;
 }
+
 }

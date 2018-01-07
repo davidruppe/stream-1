@@ -13,52 +13,42 @@
 <body>
     <header>
         <div class="container">
-
-             <!----- Page Title image hidden at at large size ------>
+    <!-- Page Title image -->
             <div class="row">
-                <div class="imgdiv col-xs-12 col-sm-12 col-md-6 col-lg-12  hidden-lg hidden-md">
-                     <img class="images" src="assets/images/coldtitle.png" alt="Main Band" height="100%" width="100%">
+                <div class="imgdiv col-xs-12 col-sm-12 col-md-6 col-lg-12">
+                    <img class="imgheader" src="assets/images/coldtitle.png" alt="main title" height="100%" width="100%">
                 </div>
             </div>
-
-    <!----- Page Title image hidden at smaller sizes ------>
-    
-        <div class="row">
-            <div class=" imgdiv col-md-6 col-lg-7  hidden-sm hidden-xs">
-                <img class="images" src="assets/images/coldtitle.png" alt="Main Band" height="100%" width="100%">
+            <div class="row">  
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <img class="imgheader" src="assets/images/banners/coldbanner2.jpg" alt="coldbanner" height="250px" width="100%">
+                </div>
             </div>
-
     <!------Bootstrap Navbar (with CSS customisation) ------>
-
-            <div class=" navdiv col-xs-12 col-sm-12 col-md-6 col-lg-5">
+            <div class="row">
+                <div class=" navdiv col-xs-12 col-sm-12 col-md-12 col-lg-12">
               
-              <nav class="nav navbar navbar-inverse navbar-right">
+              <nav class="nav navbar-inverse">
                 <div class="container-fluid">
 
-                    <ul class="navbar-nav">
-                      <li><button class="btn navbar-btn"><a href="index.html">HOME</a></button></li>
-                      <li><button class="btn navbar-btn"><a href="band.html">BAND</a></button></li>
-                      <li><button class="btn navbar-btn"><a href="music.html">MUSIC</a></button></li> 
-                      <li><button class="btn navbar-btn"><a href="live.html">LIVE</a></button></li> 
+                    <ul class="nav nav-pills nav-fill nav-justified ">
+                        
+                        <li><button class="btn navbar-btn"><a href="index.html">HOME</a></button></li>
+                        <li><button class="btn navbar-btn"><a href="band.html">BAND</a></button></li>
+                        <li><button class="btn navbar-btn"><a href="music.html">MUSIC</a></button></li> 
+                        <li><button class="btn navbar-btn"><a href="live.html">LIVE</a></button></li>
+                        
                     </ul>
                   
                 </div>
               </nav>
             </div>
-
-          </div>
-          
-          <div class="row">  
-          
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <img class="images" src="assets/images/coldbanner2.jpg" alt="Main Band" height="250px" width="100%">
             </div>
-          </div>
         </div>
     </header>
     
 <section>
-    <div class="container band">
+    <div class="container content">
         <div class="row">
             
             
@@ -66,20 +56,29 @@
             
             
             
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 colpad">
                 <div class="feature">
                     
                     <div class="featureheader">
                         <div>
-                            <h3>THE RECORDS</h3>
-                            <img src="assets/images/coldbanner2.jpg" class="hidden-sm hidden-xs" alt="Main Band" width="100%">
+                            <h3>BAND HISTORY</h3>
                         </div>
                     </div>
                     <div class="galleryscroll">
                         <div class="pictures">
-                                
+                            <h5>Scroll below for a short history of the group, including their greatest hits, 
+                            biggest selling albums and critcally acclaimed live tours</h5>    
+                        </div>
+                        
+                        
+                        <div class="pictures">
+                            <h4>The First Album</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
+                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
+                            accusantium amet, ex qui dolor.</p>   
                             <a href="music.html">
-                            <img src="assets/images/albumcover1.jpg"  class="imglink" alt="Main Band" width="60%">
+                            <img src="assets/images/albums/albumfroze.jpg"  class="imglink" alt="frozen over" width="60%">
                             </a>
                                 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -90,16 +89,13 @@
                                 Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
                                 autem eum quod, minus. Repudiandae quibusdam itaque facilis 
                                 accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                                autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                                accusantium amet, ex qui dolor.</p>
+                            
                                 
                         </div>
                         <div class="pictures">
-                                
+                             <h4>The Eighties</h4>   
                             <a href="music.html">
-                            <img src="assets/images/albumcover2.jpg"  class="imglink" alt="Main Band" width="60%">
+                            <img src="assets/images/albums/albumthunder.jpg"  class="imglink" alt="thunder" width="60%">
                             </a>
                                 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -117,15 +113,16 @@
                                 
                     </div>
                         <div class="pictures">
-                                
+                             <h4>The Nineties</h4>   
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
+                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
+                            accusantium amet, ex qui dolor.</p>
+                            
                             <a href="music.html">
-                            <img src="assets/images/albumcover3.jpg"  class="imglink" alt="Main Band" width="60%">
+                            <img src="assets/images/albums/albumnuns.jpg"  class="imglink" alt="there were nuns" width="60%">
                             </a>
                                 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                                autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                                accusantium amet, ex qui dolor.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                                 Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
                                 autem eum quod, minus. Repudiandae quibusdam itaque facilis 
@@ -137,9 +134,9 @@
                                 
                         </div>
                         <div class="pictures">
-                                
+                            <h4>The Latest Album</h4>
                             <a href="music.html">
-                            <img src="assets/images/albumcover4.jpg"  class="imglink" alt="Main Band" width="60%">
+                            <img src="assets/images/albums/albumpops.jpg"  class="imglink" alt="alco pop" width="60%">
                             </a>
                                 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -160,50 +157,32 @@
                 </div>
             </div>
             
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 colpad">
                 <div class="feature">
                     
                     <div class="featureheader">
                         <div>
-                            <h3>THE BAND</h3>
-                            <img src="assets/images/coldbanner2.jpg" class="hidden-sm hidden-xs" alt="Main Band" width="100%">
+                            <h3>BIOGRAPHIES</h3>
+                            
                         </div>
                     </div>
                     <div class="galleryscroll">
                         <div class="pictures">
-                            <img src="assets/images/theband/keyboard.jpg" class="imglink">
+                            <h5>Scroll below for a short biography of all The Cold Shoulders members. 
+                            All of them are founding members of the group and are passionate about 
+                            their music, Punk music and life in general.</h5>    
+                        </div>
+                        <div class="pictures">
                             
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                    Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                                    autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                                    accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                    Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                                    autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                                    accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
-                        </div>
-                        <div class="pictures">
-                            <img src="assets/images/theband/leadguitar.jpg" class="imglink">
-                           
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
-                        </div>
-                        <div class="pictures">
-                            <img src="assets/images/theband/vocals.jpg" class="imglink imghead">
+                            <h4>Alan "A-Hole" Holland - Keyboards</h4>
+                            
+                            <div class="headbox">
+                                
+                                <img src="assets/images/theband/keyboard.jpg" class="imghead">
+                                
+                            </div>
+                            
+                            
                             
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
@@ -213,46 +192,58 @@
                             Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
                             autem eum quod, minus. Repudiandae quibusdam itaque facilis 
                             accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
+                            
                         </div>
                         <div class="pictures">
-                            <img src="assets/images/theband/rhythm.jpg" class="imglink">
+                            <h4>Jeffrey "Mutton Jeff" MacDowell - Lead Guitar/Backing Vocals</h4>
+                            <div class="headbox">
+                                <img src="assets/images/theband/leadguitar.jpg" class="imghead">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
+                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
+                            accusantium amet, ex qui dolor.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
+                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
+                            accusantium amet, ex qui dolor.</p>
                             
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
                         </div>
                         <div class="pictures">
-                            <img src="assets/images/theband/bass.jpg" class="imglink">
+                            <h4>Samuel "Sammo" Morse - Lead Vocals</h4>
+                            <div class="headbox">
+                                <img src="assets/images/theband/vocals.jpg" class="imghead">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
+                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
+                            accusantium amet, ex qui dolor.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
+                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
+                            accusantium amet, ex qui dolor.</p>
                             
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                            accusantium amet, ex qui dolor.</p>
                         </div>
                         <div class="pictures">
-                            <img src="assets/images/theband/drums.jpg" class="imglink">
+                            <h4>Donny "Big Don" Potter - Rhythm Guitar/Backing Vocals</h4>
+                            <div class="headbox">
+                                <img src="assets/images/theband/rhythm.jpg" class="imghead">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
+                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
+                            accusantium amet, ex qui dolor.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
+                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
+                            accusantium amet, ex qui dolor.</p>
                             
+                        </div>
+                        <div class="pictures">
+                            <h4>Adrian "Man-Child" Junior - Bass Guitar</h4>
+                            <div class="headbox">
+                                <img src="assets/images/theband/bass.jpg" class="imghead">
+                            </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
                             autem eum quod, minus. Repudiandae quibusdam itaque facilis 
@@ -261,28 +252,43 @@
                             Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
                             autem eum quod, minus. Repudiandae quibusdam itaque facilis 
                             accusantium amet, ex qui dolor.</p>
+                            
+                        </div>
+                        <div class="pictures">
+                            <h4>Donald "Little Donny" Jones - Drums/Percussion</h4>
+                            <div class="headbox">
+                                <img src="assets/images/theband/drums.jpg" class="imghead">
+                            </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
                             autem eum quod, minus. Repudiandae quibusdam itaque facilis 
                             accusantium amet, ex qui dolor.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
+                            autem eum quod, minus. Repudiandae quibusdam itaque facilis 
+                            accusantium amet, ex qui dolor.</p>
+                            
+                            
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 colpad">
                 <div class="feature">
                     <div class="featureheader">
                         <div>
-                            <h3>THE RECORDS</h3>
-                            <img src="assets/images/coldbanner2.jpg" class="hidden-sm hidden-xs" alt="Main Band" width="100%">
+                            <h3>LATEST NEWS/RELEASES</h3>
                         </div>
                     </div>
                     <div class="galleryscroll">
                         <div class="pictures">
-                                
+                            <h5>Scroll below for all the latest updates on the band, the new tour, as well as the latest album and single releases</h5>    
+                        </div>
+                        <div class="pictures">
+                            <h4>The Go Ahead Punk Tour</h4>    
                             <a href="music.html">
-                            <img src="assets/images/albumcover1.jpg"  class="imglink" alt="Main Band" width="60%">
+                            <img src="assets/images/liveposter.jpg"  class="imglink" alt="live poster" width="60%">
                             </a>
                                 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -293,16 +299,13 @@
                                 Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
                                 autem eum quod, minus. Repudiandae quibusdam itaque facilis 
                                 accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                                autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                                accusantium amet, ex qui dolor.</p>
+                            
                                 
                         </div>
                         <div class="pictures">
-                                
+                            <h4>The New Album</h4> 
                             <a href="music.html">
-                            <img src="assets/images/albumcover2.jpg"  class="imglink" alt="Main Band" width="60%">
+                            <img src="assets/images/albums/albumpops.jpg"  class="imglink" alt="alco pops" width="60%">
                             </a>
                                 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -313,16 +316,13 @@
                                 Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
                                 autem eum quod, minus. Repudiandae quibusdam itaque facilis 
                                 accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                                autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                                accusantium amet, ex qui dolor.</p>
+                            
                                 
                     </div>
                         <div class="pictures">
-                                
+                            <h4>The New Single</h4>
                             <a href="music.html">
-                            <img src="assets/images/albumcover3.jpg"  class="imglink" alt="Main Band" width="60%">
+                            <img src="assets/images/singles/alcopop.jpg"  class="imglink" alt="alcopop" width="60%">
                             </a>
                                 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -333,16 +333,13 @@
                                 Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
                                 autem eum quod, minus. Repudiandae quibusdam itaque facilis 
                                 accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                                autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                                accusantium amet, ex qui dolor.</p>
+                            
                                 
                         </div>
                         <div class="pictures">
-                                
+                            <h4>Other News</h4>
                             <a href="music.html">
-                            <img src="assets/images/albumcover4.jpg"  class="imglink" alt="Main Band" width="60%">
+                            <img src="assets/images/balloons.jpg"  class="imglink" alt="balloons" width="60%">
                             </a>
                                 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -353,10 +350,7 @@
                                 Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
                                 autem eum quod, minus. Repudiandae quibusdam itaque facilis 
                                 accusantium amet, ex qui dolor.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Sed officiis suscipit quaerat, omnis amet aliquid est, quas 
-                                autem eum quod, minus. Repudiandae quibusdam itaque facilis 
-                                accusantium amet, ex qui dolor.</p>
+                            
                                 
                         </div>
                     </div>    
@@ -368,16 +362,16 @@
 </section>
     
     
-   <footer>
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                     <h3>HIRE US</h3>
-                   <a href="hire.html"><i class="fa fa-microphone" aria-hidden="true"></i></a>
+                   <a href="live.html#booking"><i class="fa fa-microphone" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                     <h3>TICKETS</h3>
-                    <a href="tick.html"><i class="fa fa-ticket" aria-hidden="true"></i></a>
+                    <a href="live.html#tickets"><i class="fa fa-ticket" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <h3>SOCIAL MEDIA</h3>
