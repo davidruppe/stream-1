@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Cold Shoulders</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+ 
+</head>
+<body>
+    <header>
+        <div class="container">
+    <!-- Page Title image -->
+            <div class="row">
+                <div class="imgdiv col-xs-12 col-sm-12 col-md-6 col-lg-12">
+                    <img class="imgheader" src="assets/images/coldtitle.png" alt="main title" height="100%" width="100%">
+                </div>
+            </div>
+            <div class="row">  
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <img class="imgheader" src="assets/images/banners/coldbanner4.jpg" alt="coldbanner" height="250px" width="100%">
+                </div>
+            </div>
+    <!------Bootstrap Navbar (with CSS customisation) ------>
+            <div class="row">
+                <div class=" navdiv col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              
+              <nav class="nav navbar-inverse">
+                <div class="container-fluid">
+
+                    <ul class="nav nav-pills nav-fill nav-justified ">
+                        
+                        <li><button class="btn navbar-btn"><a href="index.html">HOME</a></button></li>
+                        <li><button class="btn navbar-btn"><a href="band.html">BAND</a></button></li>
+                        <li><button class="btn navbar-btn"><a href="music.html">MUSIC</a></button></li> 
+                        <li><button class="btn navbar-btn"><a href="live.html">LIVE</a></button></li>
+                        <li><button class="btn navbar-btn"><a href="book.html">BOOK</a></button></li>
+                    </ul>
+                  
+                </div>
+              </nav>
+            </div>
+            </div>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container content">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 colpad">
+                    <div class="feature">
+                        <div class="featureheader">
+                            <h3>BOOKING/CONTACT FORM</h3>
+                            
+                        </div>
+                        <div class="galleryscroll">
+                            <div class="pictures">
+                                <h5>To book The Cold Shoulders or to ask us a question, 
+                                please complete the contact form below and click the SUBMIT button. 
+                                We will respond as soon as possible. All bookings are secured by 
+                                signing a contract and paying the 10% deposit.</h5>
+                            </div>
+                            <form action="http://posttestserver.com/post.php" method="post"  class="form-input">
+                                
+                                <fieldset>
+                                    <legend>PERSONAL DETAILS</legend>
+                                    <div class="form-group">
+                                        <label for="title">Title (select from dropdown)</label>
+                                        <select name="cars" class="form-control" id="title" required>
+                                            <option value="Mister">Mr</option>
+                                            <option value="Mrs">Mrs</option>
+                                            <option value="Miss">Miss</option>
+                                            <option value="Ms">Ms</option>
+                                            <option value="Dr">Dr</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">First Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="First Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="surname">Last Name</label>
+                                        <input type="text" class="form-control" id="surname" placeholder="Last Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email address</label>
+                                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    
+                                </fieldset>
+                                <fieldset>
+                                    <legend>BOOKING DETAILS</legend>
+                                    <small id="bookHelp" class="form-text text-muted">Ignore this section if you only wish to message us.</small>
+                                    <div class="form-group">
+                                        <label for="date">Date of Event (enter or select from dropdown)</label>
+                                        <input type="date" class="form-control" id="date" placeholder="Date">
+                                        
+                                    </div> 
+                                    
+                                    <div class="form-group">
+                                        <label for="location">Location (Town/City & Venue)</label>
+                                        <input type="text" class="form-control" id="location" placeholder="Location/Venue">
+                                    </div>
+                                </fieldset>    
+                                <fieldset>
+                                    <legend>MESSAGES/COMMENTS/QUESTIONS</legend>
+                                    <small id="messageHelp" class="form-text text-muted">Ask a question, send a message or provide additional info about the booking.</small>
+                                    <div class="form-group">
+                                        <label for="location">Message</label>
+                                        <textarea name="message" rows="10" cols="30"  class="form-control" id="location" placeholder="Message"></textarea>
+                                    </div>
+                                    
+                                    <button type="submit" class="submit btn-primary">Submit</button>
+    
+                            </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <h3>BOOK US</h3>
+                   <a href="book.html"><i class="fa fa-microphone" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <h3>TICKETS</h3>
+                    <a href="live.html"><i class="fa fa-ticket" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                    <h3>SOCIAL MEDIA</h3>
+                    <ul class= "list-inline social-links">
+                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

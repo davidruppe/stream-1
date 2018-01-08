@@ -52,6 +52,11 @@ div {
     border-color: #fafafa;
 }
 
+.btn-primary {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 a {
     color: #ffffff;
     text-align: center;
@@ -185,6 +190,12 @@ audio {
     margin-top: 20px;
 }
 
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
 .fa {
     font-size: 50px;
     margin-top: 10px;
@@ -204,13 +215,12 @@ audio {
 
 .form-input {
     /*background-color: #C3C6C7;*/
-    background-color: #CBE396;
+    background-color: #BBE1ED;
 }
 
 .form-group {
     margin: 10px;
     background-color: #292148;
-    
 }
 
 
@@ -222,6 +232,16 @@ audio {
 #emailHelp {
     color: #BBE1ED;
 }
+
+
+#bookHelp {
+    color: #292148;
+}
+
+#messageHelp {
+    color: #292148;
+}
+
 
 
 .submit {
